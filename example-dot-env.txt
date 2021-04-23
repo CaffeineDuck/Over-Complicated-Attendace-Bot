@@ -1,4 +1,5 @@
 USERNAME=<Your school username>
 PASSWORD=<Your school password>
+CHROMEDRIVER=<Path to your chromedriver>
 
 Note: `<` and `>` are not needed!
