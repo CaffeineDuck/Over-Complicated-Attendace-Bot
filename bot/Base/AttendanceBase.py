@@ -12,7 +12,9 @@ class AttendanceBotBase:
     def initiate_webdriver(self):
         chrome_options = Options()
         # chrome_options.add_argument("--headless")
-        self.driver = webdriver.Chrome(executable_path=self.executable_path, chrome_options=chrome_options)
+        self.driver = webdriver.Chrome(
+            executable_path=self.executable_path, chrome_options=chrome_options
+        )
 
     def goto_site(self):
         self.driver.get(self.school.school_site)
