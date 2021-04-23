@@ -1,5 +1,6 @@
 USERNAME=<Your school username>
 PASSWORD=<Your school password>
 CHROMEDRIVER=<Path to your chromedriver>
+SLOW_INTERNET=<How slow is your internet? In scale of 1-10>
 
 Note: `<` and `>` are not needed!
