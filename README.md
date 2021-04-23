@@ -11,8 +11,9 @@ This is a bot to do your online class attendance. But its not just that. It is a
 ## How to use?
 1. Clone the repo in your local machine.
 2. Run `pipenv install`.
-3. Create a file named `.env` and populate files using the format provided in [.env](example-dot-env.txt).
-4. Run `python -m bot`.
+3. Download chromedriver.
+4. Create a file named `.env` and populate files using the format provided in [.env](example-dot-env.txt).
+5. Run `python -m bot`.
 
 ## How to contribute?
 1. Fork the repo.
