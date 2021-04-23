@@ -15,8 +15,14 @@ After you start the script, after some pre-checks it starts taking the attendanc
 1. Clone the repo in your local machine.
 2. Run `pipenv install`.
 3. Download chromedriver.
-4. Create a file named `.env` and populate files using the format provided in [.env](example-dot-env.txt).
-5. Run `python -m bot`.
+
+### If you want to get started as fast as possible:
+1. Create a file named `.env` and populate files using the format provided in [.env](example-dot-env.txt).
+2. Run `python -m bot`.
+
+### If you want to customize shit your own way:
+1. Create a new file and import from [attendance-bot](bot/)
+2. For the refrence on writing code check out [example](bot/__main__.py)
 
 ## How to contribute?
 1. Fork the repo.
