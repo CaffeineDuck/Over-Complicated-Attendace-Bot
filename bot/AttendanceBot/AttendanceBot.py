@@ -22,10 +22,15 @@ class AttendanceBot(AttendanceBotBase):
             student_interface = StudentAttendance(self.driver, student, self.school)
             student_interface.complete_attendance()
 
+    def time_check(self):
+        now = datetime.now()
+        if now.hour < self.school.end_time and now.hour > self.school.start_time:
+            return True
+        return False
+
     def start(self):
         print("Task Started!")
-        now = datetime.now()
-        while now.hour < self.school.end_time and now.hour > self.school.start_time:
+        while self.time():
             try:
                 self.run()
                 self.take_attendance()
