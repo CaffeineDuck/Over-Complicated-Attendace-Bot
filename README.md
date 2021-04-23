@@ -6,6 +6,7 @@ This is a bot to do your online class attendance. But its not just that. It is a
 ## Requirements
 1. Python 3.9 or greater
 2. Pipenv
+3. Chrome
 
 ## How to use?
 1. Clone the repo in your local machine.
