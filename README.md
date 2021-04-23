@@ -1,6 +1,6 @@
 # Attendance Bot
 
-## About Me
+## About The Bot
 This is a bot to do your online class attendance. But its not just that. It is a code where I overcomplicate the things without any real work or meaning. It doesn't cover any edge cases. But I made the code long just for the fun of it, when the whole code code have been completed in 100 lines or less.
 
 ## How it works?
