@@ -1,8 +1,9 @@
 import time
 
+from selenium import webdriver
+
 from bot.Base.StudentBase import StudentBase
 from bot.Decorators.Time import wait
-from selenium import webdriver
 
 
 class Attend(StudentBase):

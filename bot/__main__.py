@@ -1,9 +1,9 @@
 from selenium import webdriver
 
 from bot import AttendanceBot, School, Student
-from config.school import school_config
 from config.bot import bot_config
 from config.class_conf import class_config
+from config.school import school_config
 
 students = [Student(school_config.username, school_config.password)]
 

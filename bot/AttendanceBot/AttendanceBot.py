@@ -1,11 +1,12 @@
-from typing import List
 import time
 from datetime import datetime
+from typing import List
+
+from selenium import webdriver
 
 from bot.Base.AttendanceBase import AttendanceBotBase
 from bot.DataClass.School import School
 from bot.DataClass.Student import Student
-from selenium import webdriver
 from bot.Utils.StudentAttendance import StudentAttendance
 
 

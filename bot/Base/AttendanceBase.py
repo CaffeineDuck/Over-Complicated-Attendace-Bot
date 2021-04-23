@@ -1,5 +1,6 @@
-from bot.DataClass.School import School
 from selenium import webdriver
+
+from bot.DataClass.School import School
 
 
 class AttendanceBotBase:

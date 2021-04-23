@@ -1,9 +1,9 @@
 import time
 
 from bot.Base.StudentBase import StudentBase
+from bot.Decorators.Time import wait
 from bot.Utils.attend import Attend
 from bot.Utils.login import Login
-from bot.Decorators.Time import wait
 
 
 class StudentAttendance(StudentBase):

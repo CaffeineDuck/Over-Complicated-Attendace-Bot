@@ -1,6 +1,7 @@
+from selenium import webdriver
+
 from bot.DataClass.School import School
 from bot.DataClass.Student import Student
-from selenium import webdriver
 
 
 class StudentBase:
