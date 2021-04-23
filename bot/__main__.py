@@ -26,4 +26,5 @@ main_bot = AttendanceBot(
     school=school,
 )
 
-main_bot.start()
+if __name__ == '__main__':
+    main_bot.start()
