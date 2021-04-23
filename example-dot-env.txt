@@ -1,0 +1,4 @@
+USERNAME=<Your school username>
+PASSWORD=<Your school password>
+
+Note: `<` and `>` are not needed!
