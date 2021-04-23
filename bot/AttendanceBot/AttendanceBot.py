@@ -40,6 +40,7 @@ class AttendanceBot(AttendanceBotBase):
                 time.sleep(self.school.class_interval)
             except Exception:
                 print("Failed to take attendance for this period.")
+                self.stop()
                 time.sleep(100)
                 print("Retrying....")
         print("Task Completed!")
