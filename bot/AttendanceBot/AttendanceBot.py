@@ -30,7 +30,7 @@ class AttendanceBot(AttendanceBotBase):
 
     def start(self):
         print("Task Started!")
-        while self.time():
+        while self.time_check():
             try:
                 self.run()
                 self.take_attendance()
