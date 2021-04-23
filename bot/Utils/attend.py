@@ -16,12 +16,15 @@ class Attend(StudentBase):
 
     @wait()
     def close_notification(self):
-        self.driver.find_element_by_xpath(self.school.notification_cancel_button_xpath).click()
- 
+        self.driver.find_element_by_xpath(
+            self.school.notification_cancel_button_xpath
+        ).click()
+
     @wait()
     def close_new_tab(self):
         self.driver.switch_to.window(self.driver.window_handles[1])
         self.driver.close()
+        self.driver.switch_to.window(self.driver.window_handles[0])
 
     def attend(self):
         self.close_notification()

@@ -19,8 +19,10 @@ class StudentAttendance(StudentBase):
 
     @wait()
     def logout(self):
-        self.driver.find_element_by_xpath('/html/body/header/nav/div/ul/li/a').click()
-        self.driver.find_element_by_xpath('/html/body/header/nav/div/ul/li/ul/li/div/a').click()
+        self.driver.find_element_by_xpath("/html/body/header/nav/div/ul/li/a").click()
+        self.driver.find_element_by_xpath(
+            "/html/body/header/nav/div/ul/li/ul/li/div/a"
+        ).click()
 
     def complete_attendance(self):
         self.login()

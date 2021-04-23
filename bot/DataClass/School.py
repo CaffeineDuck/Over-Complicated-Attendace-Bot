@@ -3,6 +3,9 @@ from dataclasses import dataclass
 
 @dataclass
 class School:
+    start_time: int
+    end_time: int
+    class_interval: int
     school_site: str
     username_xpath: str
     password_xpath: str

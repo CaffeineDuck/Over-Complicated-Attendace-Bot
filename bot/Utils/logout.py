@@ -2,6 +2,7 @@ import time
 
 from bot.Base.StudentBase import StudentBase
 
+
 class Logout(StudentBase):
     def logout(self):
         self.driver.find_element_by_xpath(self.school.profile_button_xpath).click()

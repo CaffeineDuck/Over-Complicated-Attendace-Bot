@@ -1,5 +1,6 @@
 from bot.Base.StudentBase import StudentBase
 
+
 class Login(StudentBase):
     def send_username(self, username: str):
         self.driver.find_element_by_xpath(self.school.username_xpath).send_keys(
